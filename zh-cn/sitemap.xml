@@ -2,98 +2,129 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://calabchen.github.io/zh-cn/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <loc>https://calabchen.github.io/</loc>
+    <lastmod>2024-05-07T18:55:26+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="https://calabchen.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
                 href="https://calabchen.github.io/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://calabchen.github.io/zh-cn/"
-                />
   </url><url>
-    <loc>https://calabchen.github.io/zh-cn/categories/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <loc>https://calabchen.github.io/p/helloworld/</loc>
+    <lastmod>2024-05-07T18:55:26+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://calabchen.github.io/categories/"
+                href="https://calabchen.github.io/en/p/helloworld/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://calabchen.github.io/zh-cn/categories/"
+                href="https://calabchen.github.io/p/helloworld/"
                 />
   </url><url>
-    <loc>https://calabchen.github.io/zh-cn/p/test-chinese/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://calabchen.github.io/zh-cn/post/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <loc>https://calabchen.github.io/post/</loc>
+    <lastmod>2024-05-07T18:55:26+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="https://calabchen.github.io/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
                 href="https://calabchen.github.io/post/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://calabchen.github.io/zh-cn/post/"
-                />
   </url><url>
-    <loc>https://calabchen.github.io/zh-cn/categories/test/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <loc>https://calabchen.github.io/page/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://calabchen.github.io/categories/test/"
+                href="https://calabchen.github.io/en/page/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://calabchen.github.io/zh-cn/categories/test/"
-                />
-  </url><url>
-    <loc>https://calabchen.github.io/zh-cn/categories/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://calabchen.github.io/zh-cn/page/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
                 href="https://calabchen.github.io/page/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://calabchen.github.io/zh-cn/page/"
-                />
   </url><url>
-    <loc>https://calabchen.github.io/zh-cn/tags/</loc>
+    <loc>https://calabchen.github.io/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="https://calabchen.github.io/en/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://calabchen.github.io/archives/"
+                />
+  </url><url>
+    <loc>https://calabchen.github.io/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://calabchen.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
                 href="https://calabchen.github.io/tags/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://calabchen.github.io/zh-cn/tags/"
-                />
   </url><url>
-    <loc>https://calabchen.github.io/zh-cn/%E5%85%B3%E4%BA%8E/</loc>
+    <loc>https://calabchen.github.io/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://calabchen.github.io/about/"
+                href="https://calabchen.github.io/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://calabchen.github.io/zh-cn/%E5%85%B3%E4%BA%8E/"
+                href="https://calabchen.github.io/categories/"
+                />
+  </url><url>
+    <loc>https://calabchen.github.io/%E5%85%B3%E4%BA%8E/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://calabchen.github.io/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://calabchen.github.io/%E5%85%B3%E4%BA%8E/"
+                />
+  </url><url>
+    <loc>https://calabchen.github.io/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://calabchen.github.io/en/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://calabchen.github.io/search/"
+                />
+  </url><url>
+    <loc>https://calabchen.github.io/%E5%8F%8B%E9%93%BE/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://calabchen.github.io/en/links/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://calabchen.github.io/%E5%8F%8B%E9%93%BE/"
                 />
   </url>
 </urlset>
