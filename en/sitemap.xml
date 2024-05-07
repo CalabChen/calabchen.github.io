@@ -11,11 +11,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ar"
-                href="https://calabchen.github.io/ar/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="https://calabchen.github.io/"
                 />
@@ -26,11 +21,6 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://calabchen.github.io/zh-cn/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://calabchen.github.io/ar/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -56,11 +46,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ar"
-                href="https://calabchen.github.io/ar/post/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="https://calabchen.github.io/post/"
                 />
@@ -74,11 +59,6 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://calabchen.github.io/zh-cn/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://calabchen.github.io/ar/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -144,16 +124,6 @@
   </url><url>
     <loc>https://calabchen.github.io/p/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://calabchen.github.io/ar/p/%D9%85%D8%AB%D8%A7%D9%84-%D9%86%D8%B5/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://calabchen.github.io/p/placeholder-text/"
-                />
   </url><url>
     <loc>https://calabchen.github.io/tags/tag-with-whitespaces/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
