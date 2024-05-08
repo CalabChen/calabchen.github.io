@@ -2,69 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://calabchen.github.io/categories/</loc>
+    <loc>https://calabchen.github.io/categories.html</loc>
     <lastmod>2024-05-08T13:58:38+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://calabchen.github.io/en/categories/"
+                href="https://calabchen.github.io/en/categories.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://calabchen.github.io/categories/"
+                href="https://calabchen.github.io/categories.html"
                 />
   </url><url>
-    <loc>https://calabchen.github.io/p/helloworld/</loc>
+    <loc>https://calabchen.github.io/p/helloworld.html</loc>
     <lastmod>2024-05-08T13:58:38+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://calabchen.github.io/en/p/helloworld/"
+                href="https://calabchen.github.io/en/p/helloworld.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://calabchen.github.io/p/helloworld/"
+                href="https://calabchen.github.io/p/helloworld.html"
                 />
   </url><url>
-    <loc>https://calabchen.github.io/post/</loc>
+    <loc>https://calabchen.github.io/post.html</loc>
     <lastmod>2024-05-08T13:58:38+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://calabchen.github.io/en/post/"
+                href="https://calabchen.github.io/en/post.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://calabchen.github.io/post/"
+                href="https://calabchen.github.io/post.html"
                 />
   </url><url>
-    <loc>https://calabchen.github.io/page/</loc>
-    <lastmod>2024-05-08T11:17:32+08:00</lastmod>
+    <loc>https://calabchen.github.io/page.html</loc>
+    <lastmod>2024-05-08T18:38:58+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://calabchen.github.io/en/page/"
+                href="https://calabchen.github.io/en/page.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://calabchen.github.io/page/"
+                href="https://calabchen.github.io/page.html"
                 />
   </url><url>
-    <loc>https://calabchen.github.io/archives/</loc>
+    <loc>https://calabchen.github.io/archives.html</loc>
     <lastmod>2024-05-07T19:23:38+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://calabchen.github.io/en/archives/"
+                href="https://calabchen.github.io/en/archives.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://calabchen.github.io/archives/"
+                href="https://calabchen.github.io/archives.html"
                 />
   </url><url>
     <loc>https://calabchen.github.io/</loc>
@@ -80,68 +80,68 @@
                 href="https://calabchen.github.io/"
                 />
   </url><url>
-    <loc>https://calabchen.github.io/tags/</loc>
+    <loc>https://calabchen.github.io/tags.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://calabchen.github.io/en/tags/"
+                href="https://calabchen.github.io/en/tags.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://calabchen.github.io/tags/"
+                href="https://calabchen.github.io/tags.html"
                 />
   </url><url>
-    <loc>https://calabchen.github.io/categories/test/</loc>
+    <loc>https://calabchen.github.io/categories/test.html</loc>
     <lastmod>2024-05-06T21:42:17+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://calabchen.github.io/en/categories/test/"
+                href="https://calabchen.github.io/en/categories/test.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://calabchen.github.io/categories/test/"
+                href="https://calabchen.github.io/categories/test.html"
                 />
   </url><url>
-    <loc>https://calabchen.github.io/%E5%85%B3%E4%BA%8E/</loc>
+    <loc>https://calabchen.github.io/%E5%85%B3%E4%BA%8E.html</loc>
     <lastmod>2024-05-06T21:42:17+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://calabchen.github.io/en/about/"
+                href="https://calabchen.github.io/en/about.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://calabchen.github.io/%E5%85%B3%E4%BA%8E/"
+                href="https://calabchen.github.io/%E5%85%B3%E4%BA%8E.html"
                 />
   </url><url>
-    <loc>https://calabchen.github.io/search/</loc>
+    <loc>https://calabchen.github.io/search.html</loc>
     <lastmod>2024-05-07T18:20:43+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://calabchen.github.io/en/search/"
+                href="https://calabchen.github.io/en/search.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://calabchen.github.io/search/"
+                href="https://calabchen.github.io/search.html"
                 />
   </url><url>
-    <loc>https://calabchen.github.io/%E5%8F%8B%E9%93%BE/</loc>
-    <lastmod>2024-05-08T11:17:32+08:00</lastmod>
+    <loc>https://calabchen.github.io/%E5%8F%8B%E9%93%BE.html</loc>
+    <lastmod>2024-05-08T18:38:58+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://calabchen.github.io/en/links/"
+                href="https://calabchen.github.io/en/links.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://calabchen.github.io/%E5%8F%8B%E9%93%BE/"
+                href="https://calabchen.github.io/%E5%8F%8B%E9%93%BE.html"
                 />
   </url>
 </urlset>

@@ -8,10 +8,10 @@
         <language>en</language>
         <copyright>CalabChen</copyright><atom:link href="https://calabchen.github.io/en/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Helloworld</title>
-        <link>https://calabchen.github.io/en/p/helloworld/</link>
+        <link>https://calabchen.github.io/en/p/helloworld.html</link>
         <pubDate>Tue, 07 May 2024 18:55:39 +0800</pubDate>
         
-        <guid>https://calabchen.github.io/en/p/helloworld/</guid>
+        <guid>https://calabchen.github.io/en/p/helloworld.html</guid>
         <description>&lt;img src="https://calabchen.github.io/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Helloworld" /&gt;&lt;blockquote&gt;
 &lt;p&gt;helloworld!&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -33,18 +33,18 @@
         </item>
         <item>
         <title>Archives</title>
-        <link>https://calabchen.github.io/en/archives/</link>
-        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        <link>https://calabchen.github.io/en/archives.html</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0800</pubDate>
         
-        <guid>https://calabchen.github.io/en/archives/</guid>
+        <guid>https://calabchen.github.io/en/archives.html</guid>
         <description></description>
         </item>
         <item>
         <title>About</title>
-        <link>https://calabchen.github.io/en/about/</link>
-        <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+        <link>https://calabchen.github.io/en/about.html</link>
+        <pubDate>Thu, 28 Feb 2019 00:00:00 +0800</pubDate>
         
-        <guid>https://calabchen.github.io/en/about/</guid>
+        <guid>https://calabchen.github.io/en/about.html</guid>
         <description>&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Apache License 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;
 &lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;
@@ -69,10 +69,10 @@
         </item>
         <item>
         <title>Links</title>
-        <link>https://calabchen.github.io/en/links/</link>
+        <link>https://calabchen.github.io/en/links.html</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://calabchen.github.io/en/links/</guid>
+        <guid>https://calabchen.github.io/en/links.html</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -104,10 +104,10 @@
         </item>
         <item>
         <title>Search</title>
-        <link>https://calabchen.github.io/en/search/</link>
+        <link>https://calabchen.github.io/en/search.html</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://calabchen.github.io/en/search/</guid>
+        <guid>https://calabchen.github.io/en/search.html</guid>
         <description></description>
         </item>
         

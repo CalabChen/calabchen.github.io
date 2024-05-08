@@ -8,10 +8,10 @@
         <language>zh-cn</language>
         <copyright>CalabChen</copyright><atom:link href="https://calabchen.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Helloworld</title>
-        <link>https://calabchen.github.io/p/helloworld/</link>
+        <link>https://calabchen.github.io/p/helloworld.html</link>
         <pubDate>Tue, 07 May 2024 18:55:26 +0800</pubDate>
         
-        <guid>https://calabchen.github.io/p/helloworld/</guid>
+        <guid>https://calabchen.github.io/p/helloworld.html</guid>
         <description>&lt;img src="https://calabchen.github.io/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Helloworld" /&gt;&lt;blockquote&gt;
 &lt;p&gt;你好世界！&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -33,35 +33,35 @@
         </item>
         <item>
         <title>归档</title>
-        <link>https://calabchen.github.io/archives/</link>
-        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        <link>https://calabchen.github.io/archives.html</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0800</pubDate>
         
-        <guid>https://calabchen.github.io/archives/</guid>
+        <guid>https://calabchen.github.io/archives.html</guid>
         <description></description>
         </item>
         <item>
         <title>关于</title>
-        <link>https://calabchen.github.io/%E5%85%B3%E4%BA%8E/</link>
+        <link>https://calabchen.github.io/%E5%85%B3%E4%BA%8E.html</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://calabchen.github.io/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>https://calabchen.github.io/%E5%85%B3%E4%BA%8E.html</guid>
         <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>搜索</title>
-        <link>https://calabchen.github.io/search/</link>
+        <link>https://calabchen.github.io/search.html</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://calabchen.github.io/search/</guid>
+        <guid>https://calabchen.github.io/search.html</guid>
         <description></description>
         </item>
         <item>
         <title>友链</title>
-        <link>https://calabchen.github.io/%E5%8F%8B%E9%93%BE/</link>
+        <link>https://calabchen.github.io/%E5%8F%8B%E9%93%BE.html</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://calabchen.github.io/%E5%8F%8B%E9%93%BE/</guid>
+        <guid>https://calabchen.github.io/%E5%8F%8B%E9%93%BE.html</guid>
         <description></description>
         </item>
         
