@@ -2,21 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://calabchen.github.io/</loc>
-    <lastmod>2024-05-07T18:55:26+08:00</lastmod>
+    <loc>https://calabchen.github.io/categories/</loc>
+    <lastmod>2024-05-08T13:58:38+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://calabchen.github.io/en/"
+                href="https://calabchen.github.io/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://calabchen.github.io/"
+                href="https://calabchen.github.io/categories/"
                 />
   </url><url>
     <loc>https://calabchen.github.io/p/helloworld/</loc>
-    <lastmod>2024-05-07T18:55:26+08:00</lastmod>
+    <lastmod>2024-05-08T13:58:38+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -29,7 +29,7 @@
                 />
   </url><url>
     <loc>https://calabchen.github.io/post/</loc>
-    <lastmod>2024-05-07T18:55:26+08:00</lastmod>
+    <lastmod>2024-05-08T13:58:38+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -42,7 +42,7 @@
                 />
   </url><url>
     <loc>https://calabchen.github.io/page/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-08T11:17:32+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -55,7 +55,7 @@
                 />
   </url><url>
     <loc>https://calabchen.github.io/archives/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-07T19:23:38+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -65,6 +65,19 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://calabchen.github.io/archives/"
+                />
+  </url><url>
+    <loc>https://calabchen.github.io/</loc>
+    <lastmod>2024-05-06T21:42:17+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://calabchen.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://calabchen.github.io/"
                 />
   </url><url>
     <loc>https://calabchen.github.io/tags/</loc>
@@ -79,19 +92,21 @@
                 href="https://calabchen.github.io/tags/"
                 />
   </url><url>
-    <loc>https://calabchen.github.io/categories/</loc>
+    <loc>https://calabchen.github.io/categories/test/</loc>
+    <lastmod>2024-05-06T21:42:17+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://calabchen.github.io/en/categories/"
+                href="https://calabchen.github.io/en/categories/test/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://calabchen.github.io/categories/"
+                href="https://calabchen.github.io/categories/test/"
                 />
   </url><url>
     <loc>https://calabchen.github.io/%E5%85%B3%E4%BA%8E/</loc>
+    <lastmod>2024-05-06T21:42:17+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -104,6 +119,7 @@
                 />
   </url><url>
     <loc>https://calabchen.github.io/search/</loc>
+    <lastmod>2024-05-07T18:20:43+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -116,6 +132,7 @@
                 />
   </url><url>
     <loc>https://calabchen.github.io/%E5%8F%8B%E9%93%BE/</loc>
+    <lastmod>2024-05-08T11:17:32+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

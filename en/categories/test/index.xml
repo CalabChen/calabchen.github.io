@@ -2,18 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Test on CalabChen</title>
-        <link>https://calabchen.github.io/categories/test/</link>
+        <link>https://calabchen.github.io/en/categories/test/</link>
         <description>Recent content in Test on CalabChen</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        <copyright>CalabChen</copyright><atom:link href="https://calabchen.github.io/categories/test/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en</language>
+        <copyright>CalabChen</copyright>
+        <lastBuildDate>Tue, 07 May 2024 18:55:39 +0800</lastBuildDate><atom:link href="https://calabchen.github.io/en/categories/test/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Helloworld</title>
-        <link>https://calabchen.github.io/p/helloworld/</link>
-        <pubDate>Tue, 07 May 2024 18:55:26 +0800</pubDate>
+        <link>https://calabchen.github.io/en/p/helloworld/</link>
+        <pubDate>Tue, 07 May 2024 18:55:39 +0800</pubDate>
         
-        <guid>https://calabchen.github.io/p/helloworld/</guid>
+        <guid>https://calabchen.github.io/en/p/helloworld/</guid>
         <description>&lt;img src="https://calabchen.github.io/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Helloworld" /&gt;&lt;blockquote&gt;
-&lt;p&gt;你好世界！&lt;/p&gt;
+&lt;p&gt;helloworld!&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
