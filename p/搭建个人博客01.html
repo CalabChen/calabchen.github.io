@@ -10,7 +10,7 @@
 <meta property='og:description' content="记录我在Windows11下使用hugo和github—pages从0开始搭建个人博客的经历">
 <meta property='og:url' content='https://calabchen.github.io/p/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A201.html'>
 <meta property='og:site_name' content='CalabChen'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='hugo theme' /><meta property='article:published_time' content='2024-05-08T19:06:22&#43;08:00'/><meta property='article:modified_time' content='2024-05-09T07:39:15&#43;00:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='hugo theme' /><meta property='article:published_time' content='2024-05-08T19:06:22&#43;08:00'/><meta property='article:modified_time' content='2024-05-09T08:45:58&#43;00:00'/>
 <meta name="twitter:title" content="搭建个人博客01">
 <meta name="twitter:description" content="记录我在Windows11下使用hugo和github—pages从0开始搭建个人博客的经历">
   
@@ -300,9 +300,18 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#1">1</a>
+    <li><a href="#前言">前言</a></li>
+    <li><a href="#使用-hugo--github-pages--stack主题-搭建博客">使用 Hugo + Github Pages + Stack主题 搭建博客</a>
       <ol>
-        <li><a href="#2">2</a></li>
+        <li><a href="#什么是-hugo">什么是 Hugo？</a></li>
+        <li><a href="#网站搭建思路">网站搭建思路</a></li>
+        <li><a href="#在本地安装-hugo-拓展版">在本地安装 Hugo 拓展版</a></li>
+      </ol>
+    </li>
+    <li><a href="#用-hugo-创建博客">用 Hugo 创建博客</a>
+      <ol>
+        <li><a href="#新建site">新建site</a></li>
+        <li><a href="#安装主题">安装主题</a></li>
       </ol>
     </li>
   </ol>
@@ -373,7 +382,7 @@
 
 
             <time class="article-time--reading">
-                阅读时长: 1 分钟
+                阅读时长: 2 分钟
             </time>
         </div>
         
@@ -382,7 +391,7 @@
         <div>
             <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-file-text"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 3v4a1 1 0 0 0 1 1h4" /><path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" /><path d="M9 9l1 0" /><path d="M9 13l6 0" /><path d="M9 17l6 0" /></svg>
             <time class="article-words">
-                2 字
+                952 字
             </time>
         </div>
         
@@ -396,9 +405,110 @@
     <section class="article-content">
     
     
-    <h1 id="1">1
-</h1><h2 id="2">2
-</h2>
+    <h2 id="前言">前言
+</h2><p>本人怀揣着激动的心情写下第一篇正式的博客文章！相信很多人也一样，搭建博客网站后的第一篇博文便是教如何搭建博客。第一篇博文记录这个博客的诞生过程相当有意义和有趣。另外，希望我的这个系列的文章可以对后面搭建博客的人有所帮助，帮你们少走一些弯路😁</p>
+<h2 id="使用-hugo--github-pages--stack主题-搭建博客">使用 Hugo + Github Pages + Stack主题 搭建博客
+</h2><h3 id="什么是-hugo">什么是 Hugo？
+</h3><p>Hugo 是由 Go 语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。</p>
+<h3 id="网站搭建思路">网站搭建思路
+</h3><ol>
+<li>创建 2 个 GitHub 仓库</li>
+</ol>
+<ul>
+<li>私有的博客源仓库：储存所有 Markdown 源文件（博客内容），和博客中用到的图片等。</li>
+<li>公开的 GitHub Pages 仓库：储存由 Hugo 从Markdown 文件生成的 HTML 文件。</li>
+</ul>
+<ol start="2">
+<li>将在博客源仓库中 Hugo 生成的静态 HTML 文件部署到远端 GitHub Pages 仓库中。</li>
+</ol>
+<h3 id="在本地安装-hugo-拓展版">在本地安装 Hugo 拓展版
+</h3><p>可以使用 <a class="link" href="https://gohugo.io/installation/"  target="_blank" rel="noopener"
+    >官方文档</a> 中的安装方式，需要按照拓展版，即名字后带 -extended 的版本。</p>
+<p>我是 Windows11 系统，使用微软的 WinGet 安装方式。
+鼠标右键选择进入终端，分别运行以下命令：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="l">winget search hugo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="l">winget install Hugo.Hugo.Extended</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>微软会自动帮你安装在C盘，就几十MB大小，无伤大雅。并且，微软会自动帮助我们把<code>hugo.exe</code>添加到环境变量中，很方便！终端中查看版本：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="l">hugo version</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>我的长下面这样：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">PowerShell 7.4.2
+</span></span><span class="line"><span class="cl">&gt;hugo version
+</span></span><span class="line"><span class="cl">hugo v0.125.5-c8b9f9f81c375f5b391e61bae711ee63fc76c1fd+extended windows/amd64 BuildDate=2024-05-01T15:22:11Z VendorInfo=gohugoio
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>如果版本后面有 +extended 就说明安装对了（版本可能不一样，用最新的版本即可）。</p>
+<h2 id="用-hugo-创建博客">用 Hugo 创建博客
+</h2><p>hugo 是一个静态网页生成器，简单来讲，hugo 负责的是把内容填到模板里，而具体生成什么网站则要看你是什么模板。</p>
+<p>因此，要用它来生成博客需要用到对应的博客模板，你可以在 <a class="link" href="https://themes.gohugo.io/"  target="_blank" rel="noopener"
+    >Hugo Themes</a> 或者 github 上查找模板，这里除了博客以外还有许多个人主页、导航站、文档页面等的模板。</p>
+<h3 id="新建site">新建site
+</h3><p>好了，到这假设我们的前期准备都已就绪，接下来就可以建站安装主题了。
+找个盘符(比如D盘或E盘之类的， 别当C盘战士! 会被笑话的😅)。找一个你可以记得的位置，创建一个空文件夹，我的是<code>Workspace</code>, 进入这个空文件夹，<code>shift + right mouse</code>, 选择<code>Open Git Bash here</code>,运行下面的命令:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="l">hugo new site Blog</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>会有以下提示:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">Congratulations!Your new Hugo site was created in D:\Workspace\Blog.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Just a few more steps...
+</span></span><span class="line"><span class="cl">1.Change the current directory to D:\Workspace\Blog.
+</span></span><span class="line"><span class="cl">2.Create or install a theme:
+</span></span><span class="line"><span class="cl">    - Create a new theme with the command &#34;hugo new theme <span class="p">&lt;</span><span class="nt">THEMENAME</span><span class="p">&gt;</span>&#34;
+</span></span><span class="line"><span class="cl">    - Or,install a theme from https://themes.gohugo.io/
+</span></span><span class="line"><span class="cl">3.Edit hugo.toml,setting the &#34;theme&#34;property to the theme name.
+</span></span><span class="line"><span class="cl">4.Create new content with the command &#34;hugo new content <span class="p">&lt;</span><span class="nt">SECTIONNAME</span><span class="p">&gt;</span>\<span class="p">&lt;</span><span class="nt">FILENAME</span><span class="p">&gt;</span>.<span class="p">&lt;</span><span class="nt">FORMAT</span><span class="p">&gt;</span>&#34;.
+</span></span><span class="line"><span class="cl">5.Start the embedded web server with the command &#34;hugo server --buildDrafts&#34;.
+</span></span><span class="line"><span class="cl">See documentation at https://gohugo.io/.
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="安装主题">安装主题
+</h3><p>这里我使用的是 <a class="link" href="https://stack.jimmycai.com/"  target="_blank" rel="noopener"
+    >Stack</a> 模板,点击去往对应的 <a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack"  target="_blank" rel="noopener"
+    >Github网站</a> ，比较符合我的审美需求，然而功能略有不足，因此我后面会给大家更新美化教程。😉下载完主题后，可以看看 <a class="link" href="https://demo.stack.jimmycai.com/"  target="_blank" rel="noopener"
+    >模版</a> 的样子</p>
+
 </section>
 
 
@@ -428,7 +538,7 @@
     <section class="article-lastmod">
         <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-edit"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 7h-1a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-1" /><path d="M20.385 6.585a2.1 2.1 0 0 0 -2.97 -2.97l-8.415 8.385v3h3l8.385 -8.415z" /><path d="M16 5l3 3" /></svg>
         <span>
-            最后更新于 May 09, 2024 07:39 UTC
+            最后更新于 May 09, 2024 08:45 UTC
         </span>
     </section></footer>
 
@@ -562,7 +672,7 @@
         
         
         
-        共发表 2 篇文章 · 总计 1.20 k 字
+        共发表 2 篇文章 · 总计 2.15 k 字
     </div>
     <div>
         <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>

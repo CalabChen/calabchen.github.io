@@ -24,16 +24,16 @@
         <description>&lt;blockquote&gt;
 &lt;p&gt;欢迎参观我的小站，很高兴遇见你！🤝&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h1 id=&#34;关于本站&#34;&gt;关于本站🏠
-&lt;/h1&gt;&lt;ul&gt;
+&lt;h2 id=&#34;关于本站&#34;&gt;关于本站🏠
+&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;博客框架：Hugo v0.125.5&lt;/li&gt;
 &lt;li&gt;博客主题：Stack 3.26.0&lt;/li&gt;
 &lt;li&gt;托管部署：源码托管于 Github 网站部署于 Github Pages&lt;/li&gt;
 &lt;li&gt;评论系统：giscus&lt;/li&gt;
 &lt;li&gt;版权声明：CC BY-NC-SA 4.0&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;关于我&#34;&gt;关于我
-&lt;/h1&gt;&lt;p&gt;一名 00 后,喜欢学习新技术，喜欢学习新知识，喜欢学习新工具，喜欢折腾。
+&lt;h2 id=&#34;关于我&#34;&gt;关于我
+&lt;/h2&gt;&lt;p&gt;一名 00 后,喜欢学习新技术，喜欢学习新知识，喜欢学习新工具，喜欢折腾。
 热衷于探索，探索人生、探索世界。&lt;/p&gt;
 </description>
         </item>
@@ -51,16 +51,16 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://calabchen.github.io/%E5%8F%8B%E9%93%BE.html</guid>
-        <description>&lt;h1 id=&#34;我的-blog-信息&#34;&gt;我的 Blog 信息😎
-&lt;/h1&gt;&lt;blockquote&gt;
+        <description>&lt;h2 id=&#34;我的-blog-信息&#34;&gt;我的 Blog 信息😎
+&lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;名称：CalabChen&lt;/p&gt;
 &lt;p&gt;简介：CalabChen的博客网站&lt;/p&gt;
 &lt;p&gt;地址：https://calabchen.github.io/&lt;/p&gt;
 &lt;p&gt;头像: &lt;a class=&#34;link&#34; href=&#34;https://calabchen.github.io/img/avatar_hu535db6adc606d16b32411856b5672cf4_36858_300x0_resize_box_3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://calabchen.github.io/img/avatar_hu535db6adc606d16b32411856b5672cf4_36858_300x0_resize_box_3.png&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h1 id=&#34;友链申请&#34;&gt;友链申请🥳
-&lt;/h1&gt;&lt;p&gt;如果您想申请友链，请在评论区留言。&lt;/p&gt;
+&lt;h2 id=&#34;友链申请&#34;&gt;友链申请🥳
+&lt;/h2&gt;&lt;p&gt;如果您想申请友链，请在评论区留言。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;评论区格式:&lt;/p&gt;
 &lt;p&gt;网站名称：（必填）&lt;/p&gt;
@@ -83,8 +83,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h1 id=&#34;友链交换须知&#34;&gt;友链交换须知😛
-&lt;/h1&gt;&lt;ul&gt;
+&lt;/div&gt;&lt;h2 id=&#34;友链交换须知&#34;&gt;友链交换须知😛
+&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;🎉目前没有打算&lt;/li&gt;
 &lt;li&gt;😩先写着玩玩&lt;/li&gt;
 &lt;/ul&gt;

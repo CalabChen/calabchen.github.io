@@ -52,16 +52,16 @@
         <description>&lt;blockquote&gt;
 &lt;p&gt;Welcome to visit my little site, nice to meet you! 🤝&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h1 id=&#34;about-this-site&#34;&gt;About this site🏠
-&lt;/h1&gt;&lt;ul&gt;
+&lt;h2 id=&#34;about-this-site&#34;&gt;About this site🏠
+&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;Blog framework: Hugo v0.125.5&lt;/li&gt;
 &lt;li&gt;Blog theme: Stack 3.26.0&lt;/li&gt;
 &lt;li&gt;Hosted deployment: The source code is hosted on Github and the website is deployed on Github Pages&lt;/li&gt;
 &lt;li&gt;Comment system: giscus&lt;/li&gt;
 &lt;li&gt;Copyright statement: CC BY-NC-SA 4.0&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;about-me&#34;&gt;about me
-&lt;/h1&gt;&lt;p&gt;A Gen Z likes to learn new technologies, new knowledge, new tools, and tinkering.
+&lt;h2 id=&#34;about-me&#34;&gt;about me
+&lt;/h2&gt;&lt;p&gt;A Gen Z likes to learn new technologies, new knowledge, new tools, and tinkering.
 Passionate about exploration, exploring life and exploring the world.&lt;/p&gt;
 </description>
         </item>
@@ -71,8 +71,8 @@ Passionate about exploration, exploring life and exploring the world.&lt;/p&gt;
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://calabchen.github.io/en/links.html</guid>
-        <description>&lt;h1 id=&#34;my-blog-information&#34;&gt;My Blog Information😎
-&lt;/h1&gt;&lt;blockquote&gt;
+        <description>&lt;h2 id=&#34;my-blog-information&#34;&gt;My Blog Information😎
+&lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;Name: CalabChen&lt;/p&gt;
 &lt;p&gt;Introduction: CalabChen’s blog website&lt;/p&gt;
 &lt;p&gt;Address: &lt;a class=&#34;link&#34; href=&#34;https://calabchen.github.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -80,8 +80,8 @@ Passionate about exploration, exploring life and exploring the world.&lt;/p&gt;
 &lt;p&gt;Avatar: &lt;a class=&#34;link&#34; href=&#34;https://calabchen.github.io/img/avatar_hu535db6adc606d16b32411856b5672cf4_36858_300x0_resize_box_3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://calabchen.github.io/img/avatar_hu535db6adc606d16b32411856b5672cf4_36858_300x0_resize_box_3.png&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h1 id=&#34;friend-link-application&#34;&gt;Friend link application🥳
-&lt;/h1&gt;&lt;p&gt;If you want to apply for a friend link, please leave a message in the comment area.&lt;/p&gt;
+&lt;h2 id=&#34;friend-link-application&#34;&gt;Friend link application🥳
+&lt;/h2&gt;&lt;p&gt;If you want to apply for a friend link, please leave a message in the comment area.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Comment area format:&lt;/p&gt;
 &lt;p&gt;Website name: (required)&lt;/p&gt;
@@ -104,8 +104,8 @@ Passionate about exploration, exploring life and exploring the world.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;     &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h1 id=&#34;instructions-for-friend-link-exchange&#34;&gt;Instructions for friend link exchange😛
-&lt;/h1&gt;&lt;ul&gt;
+&lt;/div&gt;&lt;h2 id=&#34;instructions-for-friend-link-exchange&#34;&gt;Instructions for friend link exchange😛
+&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;🎉No plans at the moment&lt;/li&gt;
 &lt;li&gt;😩Write it first for fun&lt;/li&gt;
 &lt;/ul&gt;
