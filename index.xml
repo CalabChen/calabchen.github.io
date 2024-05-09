@@ -30,7 +30,7 @@
 &lt;/ol&gt;
 &lt;h3 id=&#34;在本地安装-hugo-拓展版&#34;&gt;在本地安装 Hugo 拓展版
 &lt;/h3&gt;&lt;p&gt;可以使用 &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/installation/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;官方文档&lt;/a&gt; 中的安装方式，需要按照拓展版，即名字后带 -extended 的版本。&lt;/p&gt;
+    &gt;官方文档&lt;/a&gt; 中的安装方式，需要安装拓展版，即名字后带 &lt;code&gt;extended&lt;/code&gt; 的版本。&lt;/p&gt;
 &lt;p&gt;我是 Windows11 系统，使用微软的 WinGet 安装方式。
 鼠标右键选择进入终端，分别运行以下命令：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -52,7 +52,7 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;l&#34;&gt;hugo version&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;我的长下面这样：&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;结果长下面这样：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -65,14 +65,14 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo v0.125.5-c8b9f9f81c375f5b391e61bae711ee63fc76c1fd+extended windows/amd64 BuildDate=2024-05-01T15:22:11Z VendorInfo=gohugoio
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;如果版本后面有 +extended 就说明安装对了（版本可能不一样，用最新的版本即可）。&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;如果版本后面有 &lt;code&gt;+extended&lt;/code&gt; 就说明安装对了（版本可能不一样，用最新的版本即可）。&lt;/p&gt;
 &lt;h2 id=&#34;用-hugo-创建博客&#34;&gt;用 Hugo 创建博客
 &lt;/h2&gt;&lt;p&gt;hugo 是一个静态网页生成器，简单来讲，hugo 负责的是把内容填到模板里，而具体生成什么网站则要看你是什么模板。&lt;/p&gt;
 &lt;p&gt;因此，要用它来生成博客需要用到对应的博客模板，你可以在 &lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Hugo Themes&lt;/a&gt; 或者 github 上查找模板，这里除了博客以外还有许多个人主页、导航站、文档页面等的模板。&lt;/p&gt;
+    &gt;Hugo Themes&lt;/a&gt; 或者 Github 上查找模板，这里除了博客以外还有许多个人主页、导航站、文档页面等的模板。&lt;/p&gt;
 &lt;h3 id=&#34;新建site&#34;&gt;新建site
-&lt;/h3&gt;&lt;p&gt;好了，到这假设我们的前期准备都已就绪，接下来就可以建站安装主题了。
-找个盘符(比如D盘或E盘之类的， 别当C盘战士! 会被笑话的😅)。找一个你可以记得的位置，创建一个空文件夹，我的是&lt;code&gt;Workspace&lt;/code&gt;, 进入这个空文件夹，&lt;code&gt;shift + right mouse&lt;/code&gt;, 选择&lt;code&gt;Open Git Bash here&lt;/code&gt;,运行下面的命令:&lt;/p&gt;
+&lt;/h3&gt;&lt;p&gt;好了，接下来就可以建站安装主题了。
+找个盘符(比如D盘或E盘之类的， 别当C盘战士! 会被笑话的😅)。找一个你可以记得的位置，创建一个空文件夹，我的是&lt;code&gt;Workspace&lt;/code&gt;, 进入这个空文件夹，&lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;right mouse&lt;/kbd&gt;, 选择&lt;code&gt;Open Git Bash here&lt;/code&gt;,运行下面的命令:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
