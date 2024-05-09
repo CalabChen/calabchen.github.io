@@ -6,6 +6,15 @@
         <description>Recent content in Tags on CalabChen</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>CalabChen</copyright><atom:link href="https://calabchen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+        <copyright>CalabChen</copyright>
+        <lastBuildDate>Wed, 08 May 2024 19:06:22 +0800</lastBuildDate><atom:link href="https://calabchen.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hugo Theme</title>
+        <link>https://calabchen.github.io/tags/hugo-theme.html</link>
+        <pubDate>Wed, 08 May 2024 19:06:22 +0800</pubDate>
+        
+        <guid>https://calabchen.github.io/tags/hugo-theme.html</guid>
+        <description></description>
+        </item>
+        
     </channel>
 </rss>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on CalabChen</title>
-        <link>https://calabchen.github.io/en/post.html</link>
-        <description>Recent content in Posts on CalabChen</description>
+        <title>Hugo Theme on CalabChen</title>
+        <link>https://calabchen.github.io/en/tags/hugo-theme.html</link>
+        <description>Recent content in Hugo Theme on CalabChen</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>CalabChen</copyright>
-        <lastBuildDate>Tue, 07 May 2024 00:00:00 +0800</lastBuildDate><atom:link href="https://calabchen.github.io/en/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 07 May 2024 00:00:00 +0800</lastBuildDate><atom:link href="https://calabchen.github.io/en/tags/hugo-theme/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Helloworld</title>
         <link>https://calabchen.github.io/en/p/helloworld.html</link>
         <pubDate>Tue, 07 May 2024 00:00:00 +0800</pubDate>

@@ -9,13 +9,17 @@
         <copyright>CalabChen</copyright><atom:link href="https://calabchen.github.io/en/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Helloworld</title>
         <link>https://calabchen.github.io/en/p/helloworld.html</link>
-        <pubDate>Tue, 07 May 2024 18:55:39 +0800</pubDate>
+        <pubDate>Tue, 07 May 2024 00:00:00 +0800</pubDate>
         
         <guid>https://calabchen.github.io/en/p/helloworld.html</guid>
-        <description>&lt;img src="https://calabchen.github.io/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Helloworld" /&gt;&lt;blockquote&gt;
+        <description>&lt;img src="https://calabchen.github.io/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Helloworld" /&gt;&lt;h2 id=&#34;test&#34;&gt;test
+&lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;helloworld!&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;p&gt;And these are not entirely important, the more important question is, with these questions, let&amp;rsquo;s take a look at the student union&amp;rsquo;s withdrawal. In this case, for me personally, the withdrawal of the student union is not only a major event, it may also change my life. We have to face a very embarrassing fact, that is, even so, the withdrawal of the student union still represents a certain significance. What will happen if the student union withdraws from the membership? What will happen if it doesn&amp;rsquo;t happen? After the above discussion, in life, if student union withdrawal occurs, we have to consider the fact that it has occurred. How to withdraw from the student union. From this point of view, under this difficult decision, I couldn&amp;rsquo;t sleep or eat well after thinking about it. For me personally, withdrawing from the Student Union is not only a major event, it may also change my life. As far as I am concerned, the significance of withdrawing from the student union to me cannot but be said to be very important. Shakespeare once mentioned that human life is short, but if you live it despicably, it will be too long. This seems to answer my doubts. Mozart once said a philosophical saying, whoever works as hard as me will be as successful as me. This inspired me. For me personally, withdrawing from the Student Union is not only a major event, it may also change my life. How to withdraw from the student union. Generally speaking, from this perspective, this fact is of great significance to me, and I believe it also has a certain meaning to the world. Faced with this difficult decision, I couldn&amp;rsquo;t sleep or eat well after thinking about it. Understanding clearly what it means to withdraw from a student union is the key to solving all problems. Generally speaking, in life, if student union withdrawal occurs, we have to consider the fact that it has occurred. What is the crux of the problem? And these are not entirely important, the more important question is.&lt;/p&gt;
+&lt;p&gt;Ostrovsky once said that a common cause and common struggle can give people the power to endure everything. With these words, we need to examine this issue more carefully: Generally speaking, we must all consider it carefully. In this case, this fact is of great significance to me, and I believe it also has a certain significance to the world. With these questions, let’s take a look at the student union’s withdrawal. I think, I think, under this difficult choice, I think about it and have trouble sleeping and eating. What is the crux of the problem? Everyone has to face these problems. When facing this kind of problem, we need to think clearly about what kind of existence the student union&amp;rsquo;s withdrawal is. I think, in this case, everyone has to face these problems. When faced with this problem, then, I think, why student union withdrawal occurs.&lt;/p&gt;
+&lt;h2 id=&#34;citing-code&#34;&gt;citing code
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
@@ -42,29 +46,23 @@
         <item>
         <title>About</title>
         <link>https://calabchen.github.io/en/about.html</link>
-        <pubDate>Thu, 28 Feb 2019 00:00:00 +0800</pubDate>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://calabchen.github.io/en/about.html</guid>
-        <description>&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Apache License 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;
-&lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yuin/goldmark&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/yuin/goldmark&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/alecthomas/chroma&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/alecthomas/chroma&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/muesli/smartcrop&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/muesli/smartcrop&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/spf13/cobra&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/spf13/cobra&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/spf13/viper&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/spf13/viper&lt;/a&gt;&lt;/li&gt;
+        <description>&lt;blockquote&gt;
+&lt;p&gt;Welcome to visit my little site, nice to meet you! 🤝&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;about-this-site&#34;&gt;About this site🏠
+&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Blog framework: Hugo v0.125.5&lt;/li&gt;
+&lt;li&gt;Blog theme: Stack 3.26.0&lt;/li&gt;
+&lt;li&gt;Hosted deployment: The source code is hosted on Github and the website is deployed on Github Pages&lt;/li&gt;
+&lt;li&gt;Comment system: giscus&lt;/li&gt;
+&lt;li&gt;Copyright statement: CC BY-NC-SA 4.0&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.&lt;/p&gt;
-&lt;p&gt;Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.&lt;/p&gt;
-&lt;p&gt;Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.&lt;/p&gt;
-&lt;p&gt;Learn more and contribute on &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;about-me&#34;&gt;about me
+&lt;/h1&gt;&lt;p&gt;A Gen Z likes to learn new technologies, new knowledge, new tools, and tinkering.
+Passionate about exploration, exploring life and exploring the world.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -73,33 +71,44 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://calabchen.github.io/en/links.html</guid>
-        <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
-&lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
+        <description>&lt;h1 id=&#34;my-blog-information&#34;&gt;My Blog Information😎
+&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Name: CalabChen&lt;/p&gt;
+&lt;p&gt;Introduction: CalabChen’s blog website&lt;/p&gt;
+&lt;p&gt;Address: &lt;a class=&#34;link&#34; href=&#34;https://calabchen.github.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://calabchen.github.io/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Avatar: &lt;a class=&#34;link&#34; href=&#34;https://calabchen.github.io/img/avatar_hu535db6adc606d16b32411856b5672cf4_36858_300x0_resize_box_3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://calabchen.github.io/img/avatar_hu535db6adc606d16b32411856b5672cf4_36858_300x0_resize_box_3.png&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;friend-link-application&#34;&gt;Friend link application🥳
+&lt;/h1&gt;&lt;p&gt;If you want to apply for a friend link, please leave a message in the comment area.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Comment area format:&lt;/p&gt;
+&lt;p&gt;Website name: (required)&lt;/p&gt;
+&lt;p&gt;Website introduction: (optional)&lt;/p&gt;
+&lt;p&gt;Website address: (required)&lt;/p&gt;
+&lt;p&gt;Website avatar: (required)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Format example:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;links&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;GitHub&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;GitHub is the world&amp;#39;s largest software development platform.&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;website&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://github.com&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;TypeScript&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;website&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://www.typescriptlang.org&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;ts-logo-128.jpg&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;   &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;GitHub&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;     &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;GitHub is the world&amp;#39;s largest software development platform.&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;     &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;website&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://github.com&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;     &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;code&gt;image&lt;/code&gt; field accepts both local and external images.&lt;/p&gt;
+&lt;/div&gt;&lt;h1 id=&#34;instructions-for-friend-link-exchange&#34;&gt;Instructions for friend link exchange😛
+&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;🎉No plans at the moment&lt;/li&gt;
+&lt;li&gt;😩Write it first for fun&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         </item>
         <item>
