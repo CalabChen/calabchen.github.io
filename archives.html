@@ -10,10 +10,13 @@
 <meta property='og:description' content="">
 <meta property='og:url' content='https://calabchen.github.io/archives.html'>
 <meta property='og:site_name' content='CalabChen'>
-<meta property='og:type' content='article'><meta property='article:section' content='Page' /><meta property='article:published_time' content='2019-05-28T00:00:00&#43;08:00'/><meta property='article:modified_time' content='2024-05-10T11:14:45&#43;00:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Page' /><meta property='article:published_time' content='2019-05-28T00:00:00&#43;08:00'/><meta property='article:modified_time' content='2024-05-11T12:04:52&#43;00:00'/>
 <meta name="twitter:title" content="归档">
 <meta name="twitter:description" content="">
   
+
+
+
 
 
     </head>
@@ -456,5 +459,119 @@
     integrity="sha384-UEK8ZiP3VgFNP8KnKMKDmd4pAUAOJ59Y2Jo3ED2Z5qKQf6HLHovMxq7Beb9CLPUe" crossorigin="anonymous"
     size="300" alpha="0.6" zindex="-1" defer>
 </script>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
+    
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
+    
+    <script>
+        
+        $(document).pjax('a[target!=_blank]', '#container', { fragment: '#container', timeout: 8000 })
+    </script>
+    
+</head>
+
+<body>
+    <div class="demo">
+        <div id="player1">
+        </div>
+    </div>
+    <script>
+        var ap = new APlayer
+            ({
+                element: document.getElementById('player1'),
+                fixed: true,
+                autoplay: false,
+                mini: true,
+                theme: '#f8f4fc',
+                loop: 'all',
+                order: 'list',
+                preload: 'auto',
+                volume: 0.5,
+                mutex: true,
+                listFolded: true,
+                listMaxHeight: '500px',
+                lrcType: 0,
+                music: [
+                    {
+                        name: 'name',
+                        artist: 'artist',
+                        url: 'url.mp3',
+                        cover: 'cover.jpg'
+                    }
+                ]
+            });
+        
+    </script>
+
+
+    
+
+   
+    <meting-js 
+        fixed="true" 
+        server="netease" 
+        type="playlist" 
+        id="562221378">
+    </meting-js>
+
+    
+    <script>
+        ap = null
+        Object.defineProperty(document.querySelector('meting-js'), "aplayer", {
+            set: function (aplayer) {
+                ap = aplayer
+                ready();
+            }
+        });
+
+        isRecover = false;
+        function ready() {
+            ap.on('canplay', function () {
+                if (!isRecover) {
+                    if (localStorage.getItem("musicIndex") != null) {
+                        musicIndex = localStorage.getItem("musicIndex");
+                        musicTime = localStorage.getItem("musicTime");
+                        if (ap.list.index != musicIndex) {
+                            ap.list.switch(musicIndex);
+                        } else {
+                            ap.seek(musicTime);
+                            ap.play();
+                            localStorage.clear();
+                            isRecover = true;
+                        }
+                    } else {
+                        isRecover = true;
+                    }
+                }
+            });
+        }
+
+        window.onbeforeunload = function (event) {
+            if (!ap.audio.paused) {
+                musicIndex = ap.list.index;
+                musicTime = ap.audio.currentTime;
+                localStorage.setItem("musicIndex", musicIndex);
+                localStorage.setItem("musicTime", musicTime);
+            }
+        };
+    </script>
+</body>
+
+
+
+
+
+
+
     </body>
 </html>

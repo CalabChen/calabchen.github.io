@@ -10,10 +10,13 @@
 <meta property='og:description' content="My Blog Information😎 Name: CalabChen Introduction: CalabChen’s blog website Address: https://calabchen.github.io/ Avatar: https://calabchen.github.io/img/avatar_hu535db6adc606d16b32411856b5672cf4_36858_300x0_resize_box_3.png Friend link application🥳 If you want to apply for a friend link, please leave a message in the comment area. Comment area format: Website name: (required) Website introduction: (optional) Website address: (required) Website avatar: (required) Format example: 1 2 3 4 - title: GitHub description: GitHub is the world&#39;s largest software development platform. website: https://github.com image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png Instructions for friend link exchange😛 🎉No plans at the moment 😩Write it first for fun ">
 <meta property='og:url' content='https://calabchen.github.io/en/links.html'>
 <meta property='og:site_name' content='CalabChen'>
-<meta property='og:type' content='article'><meta property='article:section' content='Page' /><meta property='article:modified_time' content='2024-05-10T11:14:45&#43;00:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Page' /><meta property='article:modified_time' content='2024-05-11T12:04:52&#43;00:00'/>
 <meta name="twitter:title" content="Links">
 <meta name="twitter:description" content="My Blog Information😎 Name: CalabChen Introduction: CalabChen’s blog website Address: https://calabchen.github.io/ Avatar: https://calabchen.github.io/img/avatar_hu535db6adc606d16b32411856b5672cf4_36858_300x0_resize_box_3.png Friend link application🥳 If you want to apply for a friend link, please leave a message in the comment area. Comment area format: Website name: (required) Website introduction: (optional) Website address: (required) Website avatar: (required) Format example: 1 2 3 4 - title: GitHub description: GitHub is the world&#39;s largest software development platform. website: https://github.com image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png Instructions for friend link exchange😛 🎉No plans at the moment 😩Write it first for fun ">
   
+
+
+
 
 
     </head>
@@ -311,14 +314,7 @@
             
         
         
-        <iframe 
-            frameborder="no" 
-            border="0" 
-            marginwidth="0" 
-            marginheight="0" 
-            width=380 
-            height=330
-            src="//music.163.com/outchain/player?type=0&id=562221378&auto=0&height=430"></iframe>
+        
     </aside>
 
 
@@ -459,7 +455,7 @@
     <section class="article-lastmod">
         <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-edit"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 7h-1a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-1" /><path d="M20.385 6.585a2.1 2.1 0 0 0 -2.97 -2.97l-8.415 8.385v3h3l8.385 -8.415z" /><path d="M16 5l3 3" /></svg>
         <span>
-            Last updated on May 10, 2024 11:14 UTC
+            Last updated on May 11, 2024 12:04 UTC
         </span>
     </section></footer>
 
@@ -763,5 +759,119 @@
     integrity="sha384-UEK8ZiP3VgFNP8KnKMKDmd4pAUAOJ59Y2Jo3ED2Z5qKQf6HLHovMxq7Beb9CLPUe" crossorigin="anonymous"
     size="300" alpha="0.6" zindex="-1" defer>
 </script>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
+    
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
+    
+    <script>
+        
+        $(document).pjax('a[target!=_blank]', '#container', { fragment: '#container', timeout: 8000 })
+    </script>
+    
+</head>
+
+<body>
+    <div class="demo">
+        <div id="player1">
+        </div>
+    </div>
+    <script>
+        var ap = new APlayer
+            ({
+                element: document.getElementById('player1'),
+                fixed: true,
+                autoplay: false,
+                mini: true,
+                theme: '#f8f4fc',
+                loop: 'all',
+                order: 'list',
+                preload: 'auto',
+                volume: 0.5,
+                mutex: true,
+                listFolded: true,
+                listMaxHeight: '500px',
+                lrcType: 0,
+                music: [
+                    {
+                        name: 'name',
+                        artist: 'artist',
+                        url: 'url.mp3',
+                        cover: 'cover.jpg'
+                    }
+                ]
+            });
+        
+    </script>
+
+
+    
+
+   
+    <meting-js 
+        fixed="true" 
+        server="netease" 
+        type="playlist" 
+        id="562221378">
+    </meting-js>
+
+    
+    <script>
+        ap = null
+        Object.defineProperty(document.querySelector('meting-js'), "aplayer", {
+            set: function (aplayer) {
+                ap = aplayer
+                ready();
+            }
+        });
+
+        isRecover = false;
+        function ready() {
+            ap.on('canplay', function () {
+                if (!isRecover) {
+                    if (localStorage.getItem("musicIndex") != null) {
+                        musicIndex = localStorage.getItem("musicIndex");
+                        musicTime = localStorage.getItem("musicTime");
+                        if (ap.list.index != musicIndex) {
+                            ap.list.switch(musicIndex);
+                        } else {
+                            ap.seek(musicTime);
+                            ap.play();
+                            localStorage.clear();
+                            isRecover = true;
+                        }
+                    } else {
+                        isRecover = true;
+                    }
+                }
+            });
+        }
+
+        window.onbeforeunload = function (event) {
+            if (!ap.audio.paused) {
+                musicIndex = ap.list.index;
+                musicTime = ap.audio.currentTime;
+                localStorage.setItem("musicIndex", musicIndex);
+                localStorage.setItem("musicTime", musicTime);
+            }
+        };
+    </script>
+</body>
+
+
+
+
+
+
+
     </body>
 </html>
