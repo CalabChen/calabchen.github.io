@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="记录我在Windows11下使用hugo和github—pages从0开始搭建个人博客的经历">
-<title>搭建个人博客01</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="给hugo 个人博客加入 aplayer音乐播放器并且实现全站播放(跳转页面时音乐记录不会被打断)">
+<title>美化个人博客01</title>
 
-<link rel='canonical' href='https://calabchen.github.io/p/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A201.html'>
+<link rel='canonical' href='https://calabchen.github.io/p/%E7%BE%8E%E5%8C%96%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A201.html'>
 
-<link rel="stylesheet" href="../scss/style.min.947e565640e708b3e4e67f38f140690ac0e35b6216e019678ebd612a5587311e.css"><meta property='og:title' content="搭建个人博客01">
-<meta property='og:description' content="记录我在Windows11下使用hugo和github—pages从0开始搭建个人博客的经历">
-<meta property='og:url' content='https://calabchen.github.io/p/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A201.html'>
+<link rel="stylesheet" href="../scss/style.min.947e565640e708b3e4e67f38f140690ac0e35b6216e019678ebd612a5587311e.css"><meta property='og:title' content="美化个人博客01">
+<meta property='og:description' content="给hugo 个人博客加入 aplayer音乐播放器并且实现全站播放(跳转页面时音乐记录不会被打断)">
+<meta property='og:url' content='https://calabchen.github.io/p/%E7%BE%8E%E5%8C%96%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A201.html'>
 <meta property='og:site_name' content='CalabChen'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='hugo theme' /><meta property='article:published_time' content='2024-05-08T19:06:22&#43;08:00'/><meta property='article:modified_time' content='2024-05-11T12:52:33&#43;00:00'/>
-<meta name="twitter:title" content="搭建个人博客01">
-<meta name="twitter:description" content="记录我在Windows11下使用hugo和github—pages从0开始搭建个人博客的经历">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='hugo theme' /><meta property='article:published_time' content='2024-05-11T20:08:32&#43;08:00'/><meta property='article:modified_time' content='2024-05-11T12:52:33&#43;00:00'/>
+<meta name="twitter:title" content="美化个人博客01">
+<meta name="twitter:description" content="给hugo 个人博客加入 aplayer音乐播放器并且实现全站播放(跳转页面时音乐记录不会被打断)">
   
 
 
@@ -304,19 +304,11 @@
             <nav id="TableOfContents">
   <ol>
     <li><a href="#前言">前言</a></li>
-    <li><a href="#使用-hugo--github-pages--stack主题-搭建博客">使用 Hugo + Github Pages + Stack主题 搭建博客</a>
-      <ol>
-        <li><a href="#什么是-hugo">什么是 Hugo？</a></li>
-        <li><a href="#网站搭建思路">网站搭建思路</a></li>
-        <li><a href="#在本地安装-hugo-拓展版">在本地安装 Hugo 拓展版</a></li>
-      </ol>
-    </li>
-    <li><a href="#用-hugo-创建博客">用 Hugo 创建博客</a>
-      <ol>
-        <li><a href="#新建site">新建site</a></li>
-        <li><a href="#安装主题">安装主题</a></li>
-      </ol>
-    </li>
+    <li><a href="#思路">思路</a></li>
+    <li><a href="#添加apalyer音乐播放器">添加Apalyer音乐播放器</a></li>
+    <li><a href="#添加metingjs">添加MetingJS</a></li>
+    <li><a href="#添加pjax">添加pjax</a></li>
+    <li><a href="#展示播放器">展示播放器</a></li>
   </ol>
 </nav>
         </div>
@@ -346,12 +338,12 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="../p/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A201.html">搭建个人博客01</a>
+            <a href="../p/%E7%BE%8E%E5%8C%96%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A201.html">美化个人博客01</a>
         </h2>
 
         
         <h3 class="article-subtitle">
-            记录我在Windows11下使用hugo和github—pages从0开始搭建个人博客的经历
+            给hugo 个人博客加入 aplayer音乐播放器并且实现全站播放(跳转页面时音乐记录不会被打断)
         </h3>
         
     </div>
@@ -372,7 +364,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-            <time class="article-time--published">May 08, 2024</time>
+            <time class="article-time--published">May 11, 2024</time>
         </div>
         
 
@@ -396,7 +388,7 @@
         <div>
             <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-file-text"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 3v4a1 1 0 0 0 1 1h4" /><path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" /><path d="M9 9l1 0" /><path d="M9 13l6 0" /><path d="M9 17l6 0" /></svg>
             <time class="article-words">
-                1005 字
+                1312 字
             </time>
         </div>
         
@@ -411,81 +403,86 @@
     
     
     <h2 id="前言">前言
-</h2><p>本人怀揣着激动的心情写下第一篇正式的博客文章！相信很多人也一样，搭建博客网站后的第一篇博文便是教别人如何搭建博客。第一篇博文记录了这个博客的诞生过程，对我来说相当有意义。另外，我希望这个系列的文章可以对后面通过hugo搭建博客的人有所帮助，帮助他人少走一些弯路😁</p>
-<h2 id="使用-hugo--github-pages--stack主题-搭建博客">使用 Hugo + Github Pages + Stack主题 搭建博客
-</h2><h3 id="什么是-hugo">什么是 Hugo？
-</h3><p>Hugo 是由 Go 语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。</p>
-<h3 id="网站搭建思路">网站搭建思路
-</h3><ol>
-<li>创建 2 个 GitHub 仓库</li>
-</ol>
-<ul>
-<li>私有的博客源仓库：储存所有 Markdown 源文件（博客内容），和博客中用到的图片等。（只有自己可以看到，保护一下隐私）</li>
-<li>公开的 GitHub Pages 仓库：储存由 Hugo 从Markdown 文件生成的 HTML 文件。（就是后面可以被访问的<code>XXX.github.io</code>）</li>
-</ul>
-<ol start="2">
-<li>将在博客源仓库中 Hugo 生成的静态 HTML 文件部署到远端 GitHub Pages 仓库中。</li>
-</ol>
-<h3 id="在本地安装-hugo-拓展版">在本地安装 Hugo 拓展版
-</h3><p>可以使用 <a class="link" href="https://gohugo.io/installation/"  target="_blank" rel="noopener"
-    >官方文档</a> 中的安装方式，需要安装拓展版，即名字后带 <code>extended</code> 的版本。</p>
-<p>我是 Windows11 系统，使用微软的 winget 安装方式。
-鼠标右键选择进入终端，分别运行以下命令：</p>
+</h2><p>对于<code>hugo-theme-stack</code>主题，网上有很多人都有写如何添加音乐播放器，但是我全都读完之后，许多文章在最后的配置里写的不明白，让人费解。我出这篇文章的目的就是集他人之长处，把整个过程给大家呈现出来，方便大家都搭建成功，让大家为美化的自己的主题越来越充满信心，获得满足感和成就感。如果对我的配置不满足，那就请各位加油努力自己改造了。成功的话，可以在文章的评论区里展示一下成果，甚至和我一样写一篇博客，发在评论区去帮助更多的人！
+话不多说，请看下面的文章。</p>
+<h2 id="思路">思路
+</h2><p>如果你看到关于<code>hugo</code>的<code>shortcodes</code>来实现音乐播放器的文章,抱歉的告诉你，那是在<code>markdown</code>文章里嵌入音乐播放器(或者说是一个可以点击的图形化链接)。而我希望实现的是全局的音乐播放器，无论跳转页面都有音乐播放，我的实现方法是在<code>\layouts\partials\footer</code>里新建一个名字为<code>aplayer.html</code>的文件，这样可以在网站的页脚实现音乐播放器，并且以我的审美来看不会影响网站的观感。</p>
+<p>创建完了上面的文件后，我们打开同一目录(即<code>\layouts\partials\footer</code>)下的<code>include.html</code>文件，在最后加入下面的代码:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="l">winget search hugo</span><span class="w">
-</span></span></span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="c">&lt;!-- 添加aplayer音乐播放器 --&gt;</span>
+</span></span><span class="line"><span class="cl">{{ partial &#34;footer/aplayer.html&#34; . }}
+</span></span></code></pre></td></tr></table>
 </div>
-</div><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="l">winget install Hugo.Hugo.Extended</span><span class="w">
-</span></span></span></code></pre></td></tr></table>
-</div>
-</div><p>微软会自动帮你安装在C盘，就几十MB大小，无伤大雅。并且，微软会自动帮助我们把<code>hugo.exe</code>添加到环境变量中，很方便！终端中查看版本：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="l">hugo version</span><span class="w">
-</span></span></span></code></pre></td></tr></table>
-</div>
-</div><p>结果长下面这样：</p>
+</div><p>这里有点类似于程序员写代码时引用的头文件，不加的话网站就会报错或者网站忽略新建的文件(因为它不知道你要干嘛，你忙活半天就是徒劳一场)</p>
+<p>关闭<code>include.html</code>文件之后打开<code>aplayer.html</code>文件。</p>
+<h2 id="添加apalyer音乐播放器">添加Apalyer音乐播放器
+</h2><p>在空空的文件里加入下面的代码，添加Aplayer插件:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">PowerShell 7.4.2
-</span></span><span class="line"><span class="cl">&gt;hugo version
-</span></span><span class="line"><span class="cl">hugo v0.125.5-c8b9f9f81c375f5b391e61bae711ee63fc76c1fd+extended windows/amd64 BuildDate=2024-05-01T15:22:11Z VendorInfo=gohugoio
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="c">&lt;!-- require APlayer --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;stylesheet&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>   
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>如果版本后面有 <code>+extended</code> 就说明安装对了（版本可能不一样，大家用最新的版本即可）。</p>
-<h2 id="用-hugo-创建博客">用 Hugo 创建博客
-</h2><p>hugo 是一个静态网页生成器，简单来讲，hugo 负责的是把内容填到模板里，而具体生成什么网站则要看你是什么模板。</p>
-<p>因此，要用它来生成博客需要用到对应的主题模板，你可以在 <a class="link" href="https://themes.gohugo.io/"  target="_blank" rel="noopener"
-    >Hugo Themes</a> 或者 Github 上查找模板，这里除了博客以外还有许多个人主页、导航站、文档页面等的模板。</p>
-<h3 id="新建site">新建site
-</h3><p>好了，接下来就可以建站安装主题了。
-找个盘符(比如D盘或E盘之类的， 别当C盘战士! 会被笑话的😅)。找一个你可以记得的位置，创建一个空文件夹，我的是<code>Workspace</code>, 进入这个空文件夹，<kbd>Shift</kbd> + <kbd>right mouse</kbd>(鼠标右键), 选择<code>Open Git Bash here</code>,运行下面的命令:</p>
+</div><h2 id="添加metingjs">添加MetingJS
+</h2><p>接着，继续在<code>&lt;head&gt;&lt;/head&gt;</code>添加下面的代码, 就是加到<code>Aplayer插件</code>后面:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="l">hugo new site Blog</span><span class="w">
-</span></span></span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"> <span class="c">&lt;!-- require MetingJS --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span></code></pre></td></tr></table>
 </div>
-</div><p>会有以下提示:</p>
+</div><h2 id="添加pjax">添加pjax
+</h2><p>然后,继续在<code>&lt;head&gt;&lt;/head&gt;</code>添加下面的代码, 就是加到<code>Meting插件</code>后面:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"> <span class="c">&lt;!-- require pjax --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://cdn.bootcss.com/jquery.pjax/2.0.1/jquery.pjax.min.js&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// 对所有链接跳转事件绑定pjax容器container
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">pjax</span><span class="p">(</span><span class="s1">&#39;a[target!=_blank]&#39;</span><span class="p">,</span> <span class="s1">&#39;#container&#39;</span><span class="p">,</span> <span class="p">{</span> <span class="nx">fragment</span><span class="o">:</span> <span class="s1">&#39;#container&#39;</span><span class="p">,</span> <span class="nx">timeout</span><span class="o">:</span> <span class="mi">8000</span> <span class="p">})</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>好嘞，基本工作完成，让我们进行使用配置吧。</p>
+<h2 id="展示播放器">展示播放器
+</h2><p>在<code>aplayer.html</code>的最后加入下面的代码，注意:不要把代码加到<code>&lt;head&gt;&lt;/head&gt;</code>里面，在空白的地方加(其实就是开始新的一部分代码编写):</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -499,26 +496,166 @@
 </span><span class="lnt"> 9
 </span><span class="lnt">10
 </span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span><span class="lnt">62
+</span><span class="lnt">63
+</span><span class="lnt">64
+</span><span class="lnt">65
+</span><span class="lnt">66
+</span><span class="lnt">67
+</span><span class="lnt">68
+</span><span class="lnt">69
+</span><span class="lnt">70
+</span><span class="lnt">71
+</span><span class="lnt">72
+</span><span class="lnt">73
+</span><span class="lnt">74
+</span><span class="lnt">75
+</span><span class="lnt">76
+</span><span class="lnt">77
+</span><span class="lnt">78
+</span><span class="lnt">79
+</span><span class="lnt">80
+</span><span class="lnt">81
+</span><span class="lnt">82
+</span><span class="lnt">83
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">Congratulations!Your new Hugo site was created in D:\Workspace\Blog.
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;demo&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;player1&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">ap</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">APlayer</span>
+</span></span><span class="line"><span class="cl">            <span class="p">({</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">element</span><span class="o">:</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">&#39;player1&#39;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">fixed</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">autoplay</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">mini</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">theme</span><span class="o">:</span> <span class="s1">&#39;#f8f4fc&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">loop</span><span class="o">:</span> <span class="s1">&#39;all&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">order</span><span class="o">:</span> <span class="s1">&#39;list&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">preload</span><span class="o">:</span> <span class="s1">&#39;auto&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">volume</span><span class="o">:</span> <span class="mf">0.5</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">mutex</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">listFolded</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">listMaxHeight</span><span class="o">:</span> <span class="s1">&#39;500px&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">lrcType</span><span class="o">:</span> <span class="mi">0</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">music</span><span class="o">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">                    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                        <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;name&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                        <span class="nx">artist</span><span class="o">:</span> <span class="s1">&#39;artist&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                        <span class="nx">url</span><span class="o">:</span> <span class="s1">&#39;url.mp3&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                        <span class="nx">cover</span><span class="o">:</span> <span class="s1">&#39;cover.jpg&#39;</span>
+</span></span><span class="line"><span class="cl">                    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">                <span class="p">]</span>
+</span></span><span class="line"><span class="cl">            <span class="p">});</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">//ap.init();
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">Just a few more steps...
-</span></span><span class="line"><span class="cl">1.Change the current directory to D:\Workspace\Blog.
-</span></span><span class="line"><span class="cl">2.Create or install a theme:
-</span></span><span class="line"><span class="cl">    - Create a new theme with the command &#34;hugo new theme <span class="p">&lt;</span><span class="nt">THEMENAME</span><span class="p">&gt;</span>&#34;
-</span></span><span class="line"><span class="cl">    - Or,install a theme from https://themes.gohugo.io/
-</span></span><span class="line"><span class="cl">3.Edit hugo.toml,setting the &#34;theme&#34;property to the theme name.
-</span></span><span class="line"><span class="cl">4.Create new content with the command &#34;hugo new content <span class="p">&lt;</span><span class="nt">SECTIONNAME</span><span class="p">&gt;</span>\<span class="p">&lt;</span><span class="nt">FILENAME</span><span class="p">&gt;</span>.<span class="p">&lt;</span><span class="nt">FORMAT</span><span class="p">&gt;</span>&#34;.
-</span></span><span class="line"><span class="cl">5.Start the embedded web server with the command &#34;hugo server --buildDrafts&#34;.
-</span></span><span class="line"><span class="cl">See documentation at https://gohugo.io/.
+</span></span><span class="line"><span class="cl">     <span class="c">&lt;!-- MetingJS使用--&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">meting-js</span> 
+</span></span><span class="line"><span class="cl">        <span class="na">fixed</span><span class="o">=</span><span class="s">&#34;true&#34;</span> 
+</span></span><span class="line"><span class="cl">        <span class="na">server</span><span class="o">=</span><span class="s">&#34;netease&#34;</span>  
+</span></span><span class="line"><span class="cl">        <span class="na">type</span><span class="o">=</span><span class="s">&#34;playlist&#34;</span> 
+</span></span><span class="line"><span class="cl">        <span class="na">id</span><span class="o">=</span><span class="s">&#34;60198&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;/</span><span class="nt">meting-js</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c">&lt;!-- APlayer 跳转页面保持音乐播放进度， 下面的代码都是实现这个功能 --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">ap</span> <span class="o">=</span> <span class="kc">null</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Object</span><span class="p">.</span><span class="nx">defineProperty</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">&#39;meting-js&#39;</span><span class="p">),</span> <span class="s2">&#34;aplayer&#34;</span><span class="p">,</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">set</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">aplayer</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">ap</span> <span class="o">=</span> <span class="nx">aplayer</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">ready</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">});</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="nx">isRecover</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">function</span> <span class="nx">ready</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">ap</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;canplay&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">isRecover</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="k">if</span> <span class="p">(</span><span class="nx">localStorage</span><span class="p">.</span><span class="nx">getItem</span><span class="p">(</span><span class="s2">&#34;musicIndex&#34;</span><span class="p">)</span> <span class="o">!=</span> <span class="kc">null</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                        <span class="nx">musicIndex</span> <span class="o">=</span> <span class="nx">localStorage</span><span class="p">.</span><span class="nx">getItem</span><span class="p">(</span><span class="s2">&#34;musicIndex&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">                        <span class="nx">musicTime</span> <span class="o">=</span> <span class="nx">localStorage</span><span class="p">.</span><span class="nx">getItem</span><span class="p">(</span><span class="s2">&#34;musicTime&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">                        <span class="k">if</span> <span class="p">(</span><span class="nx">ap</span><span class="p">.</span><span class="nx">list</span><span class="p">.</span><span class="nx">index</span> <span class="o">!=</span> <span class="nx">musicIndex</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                            <span class="nx">ap</span><span class="p">.</span><span class="nx">list</span><span class="p">.</span><span class="k">switch</span><span class="p">(</span><span class="nx">musicIndex</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">                        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                            <span class="nx">ap</span><span class="p">.</span><span class="nx">seek</span><span class="p">(</span><span class="nx">musicTime</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">                            <span class="nx">ap</span><span class="p">.</span><span class="nx">play</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">                            <span class="nx">localStorage</span><span class="p">.</span><span class="nx">clear</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">                            <span class="nx">isRecover</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">                    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                        <span class="nx">isRecover</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="p">});</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="nb">window</span><span class="p">.</span><span class="nx">onbeforeunload</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">ap</span><span class="p">.</span><span class="nx">audio</span><span class="p">.</span><span class="nx">paused</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">musicIndex</span> <span class="o">=</span> <span class="nx">ap</span><span class="p">.</span><span class="nx">list</span><span class="p">.</span><span class="nx">index</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">musicTime</span> <span class="o">=</span> <span class="nx">ap</span><span class="p">.</span><span class="nx">audio</span><span class="p">.</span><span class="nx">currentTime</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">localStorage</span><span class="p">.</span><span class="nx">setItem</span><span class="p">(</span><span class="s2">&#34;musicIndex&#34;</span><span class="p">,</span> <span class="nx">musicIndex</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">localStorage</span><span class="p">.</span><span class="nx">setItem</span><span class="p">(</span><span class="s2">&#34;musicTime&#34;</span><span class="p">,</span> <span class="nx">musicTime</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">};</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="安装主题">安装主题
-</h3><p>这里我使用的是 <a class="link" href="https://stack.jimmycai.com/"  target="_blank" rel="noopener"
-    >Stack</a> 模板,点击去往对应的 <a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack"  target="_blank" rel="noopener"
-    >Github网站</a> ，比较符合我的审美需求，功能有些不足，因此我后面会给大家更新美化教程。😉下载完主题后，可以看看作者给出的 <a class="link" href="https://demo.stack.jimmycai.com/"  target="_blank" rel="noopener"
-    >模版</a> 的样子</p>
+</div><p>好了，启动或者调试中的网站就会在左下角展示一个音乐播放器，大功告成啦！</p>
 
 </section>
 
@@ -567,12 +704,12 @@
             
                 
 <article class="">
-    <a href="../p/%E7%BE%8E%E5%8C%96%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A201.html">
+    <a href="../p/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A201.html">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">美化个人博客01</h2>
+            <h2 class="article-title">搭建个人博客01</h2>
         </div>
     </a>
 </article>
