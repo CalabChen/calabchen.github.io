@@ -12,7 +12,7 @@
         <pubDate>Sat, 11 May 2024 20:08:32 +0800</pubDate>
         
         <guid>https://calabchen.github.io/p/%E7%BE%8E%E5%8C%96%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A201.html</guid>
-        <description>&lt;h2 id=&#34;前言&#34;&gt;前言
+        <description>&lt;img src="https://calabchen.github.io/matt-le-SJSpo9hQf7s-unsplash.jpg" alt="Featured image of post 美化个人博客01" /&gt;&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;对于&lt;code&gt;hugo-theme-stack&lt;/code&gt;主题，网上有很多人都有写如何添加音乐播放器，但是我全都读完之后，许多文章在最后的配置里写的不明白，让人费解。我出这篇文章的目的就是集他人之长处，把整个过程给大家呈现出来，方便大家都搭建成功，让大家为美化的自己的主题越来越充满信心，获得满足感和成就感。如果对我的配置不满足，那就请各位加油努力自己改造了。成功的话，可以在文章的评论区里展示一下成果，甚至和我一样写一篇博客，发在评论区去帮助更多的人！
 话不多说，请看下面的文章。&lt;/p&gt;
 &lt;h2 id=&#34;思路&#34;&gt;思路
@@ -274,7 +274,7 @@
         <pubDate>Wed, 08 May 2024 19:06:22 +0800</pubDate>
         
         <guid>https://calabchen.github.io/p/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A201.html</guid>
-        <description>&lt;h2 id=&#34;前言&#34;&gt;前言
+        <description>&lt;img src="https://calabchen.github.io/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post 搭建个人博客01" /&gt;&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;本人怀揣着激动的心情写下第一篇正式的博客文章！相信很多人也一样，搭建博客网站后的第一篇博文便是教别人如何搭建博客。第一篇博文记录了这个博客的诞生过程，对我来说相当有意义。另外，我希望这个系列的文章可以对后面通过hugo搭建博客的人有所帮助，帮助他人少走一些弯路😁&lt;/p&gt;
 &lt;h2 id=&#34;使用-hugo--github-pages--stack主题-搭建博客&#34;&gt;使用 Hugo + Github Pages + Stack主题 搭建博客
 &lt;/h2&gt;&lt;h3 id=&#34;什么是-hugo&#34;&gt;什么是 Hugo？
